@@ -52,7 +52,7 @@ table {
 */
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, h4 {
   color: #648880;
@@ -186,6 +186,7 @@ h1, h3, h4, h5, p {
 }
 .hero p {
   font-size: 24px;
+  font-weight: 100;
 }
 
 /*
@@ -200,7 +201,9 @@ h1, h3, h4, h5, p {
   float: left;
   font-size: 48px;
   line-height: 44px;
-
+  font-weight: 100;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 .primary-nav {
   font-size: 14px;
